@@ -684,4 +684,17 @@ span{
         text-align: center;
         margin-top: 2rem;
     }
+    
+    .home div h1{
+        margin-left: 10px;
+        font-size: 13px;
+    }
+    .home div p{
+        margin-left: 10px;
+        font-size: 13px;
+    }
+    .home div h3{
+        margin-left: 10px;
+        font-size: 13px;
+    }
 }
