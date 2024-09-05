@@ -672,6 +672,10 @@ span{
         width: 90vw;
     }
 
+    #menu-icon{
+        margin-right: 80px;
+    }
+
     .about-img img{
         width: 90vw;
     }
