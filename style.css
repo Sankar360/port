@@ -651,6 +651,9 @@ span{
     .project-box img{
         width: 100%;
     }
+    #menu-icon{
+        margin-right: 30px;
+    }
     .project-container{
         width: 60%;
         grid-template-columns: 1fr;
@@ -673,7 +676,7 @@ span{
     }
 
     #menu-icon{
-        margin-right: 80px;
+        margin-right: 50px;
     }
 
     .about-img img{
