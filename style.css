@@ -73,6 +73,7 @@ section{
     font-size: 3.6rem;
     color: var(--text-color);
     display: none;
+    cursor: pointer;
 }
 
 .header .navbar a:hover{
@@ -676,7 +677,7 @@ span{
     }
 
     #menu-icon{
-        margin-right: 50px;
+        margin-right: 70px;
     }
 
     .about-img img{
