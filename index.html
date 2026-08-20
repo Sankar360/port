@@ -4,278 +4,305 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
+    <title>Sankaranarayanan R | PHP Developer | CodeIgniter Developer</title>
+    <meta name="description" content="Sankaranarayanan R - PHP Developer with 1.4 years of professional experience in CodeIgniter, MySQL, REST APIs, and full-stack web development. View my portfolio and projects.">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
-
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
 </head>
 
 <body>
-    <!-- header section -->
+    <!-- Header Navigation -->
     <header class="header">
-        <a href="#" class="logo">portfolio</a>
+        <a href="#" class="logo">&lt;Sankaranarayanan /&gt;</a>
 
         <i class="fa-solid fa-bars" id="menu-icon"></i>
 
-        <nav class="navbar">
-            <a href="#home" class="active">Home</a>
+        <nav class="navbar" aria-label="Main navigation">
+            <a href="#home" class="active" aria-current="page">Home</a>
             <a href="#about">About</a>
             <a href="#skills">Skills</a>
+            <a href="#experience">Experience</a>
             <a href="#projects">Projects</a>
             <a href="#contact">Contact</a>
         </nav>
     </header>
 
-    <!-- home section -->
-    <section class="home" id="home">
+    <!-- Hero Section -->
+    <section class="home" id="home" aria-label="Hero section">
         <div class="home-content">
-            <h3>Hello, It's Me</h3>
+            <h3>Hello, I'm</h3>
             <h1>SANKARANARAYANAN R</h1>
-            <h3>And I'm a <span class="text"></span></h3>
-            <p>I,m a Frontend Developer
-                <br>I'll build beautiful websites your users will love
-            </p>
+            <h2 class="role-title">PHP Developer</h2>
+            <p>Building robust web applications with PHP, CodeIgniter, and MySQL. 1.4+ years of professional experience in e-commerce and CRM development.</p>
             <div class="social-media">
-                <a href="#"><i class="fa-brands fa-facebook"></i></a>
-                <a href="#"><i class="fa-brands fa-instagram"></i></a>
-                <a href="https://www.linkedin.com/in/sankaranarayanan-r-6056ba263"><i
-                        class="fa-brands fa-linkedin"></i></a>
-                <a href="https://github.com/Sankar360/frontendprojects.git"><i class="fa-brands fa-github"></i></a>
+                <a href="https://linkedin.com/in/sankarkutty" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn Profile">
+                    <i class="fa-brands fa-linkedin-in"></i>
+                </a>
+                <a href="https://github.com/Sankar360" target="_blank" rel="noopener noreferrer" aria-label="GitHub Profile">
+                    <i class="fa-brands fa-github"></i>
+                </a>
             </div>
-            <a href="#" class="btn">Download CV</a>
+            <div class="hero-buttons">
+                <a href="#" class="btn" id="downloadResume">Download Resume</a>
+                <a href="#projects" class="btn btn-outline">View Projects</a>
+            </div>
         </div>
         <div class="home-img">
-            <img src="./images/snimg.jpg" alt="img">
+            <img src="./images/snimg.jpg" alt="Sankaranarayanan R - PHP Developer" loading="lazy">
         </div>
     </section>
 
-    <!-- About section -->
-    <section class="about" id="about">
+    <!-- About Section -->
+    <section class="about" id="about" aria-label="About section">
         <div class="about-img">
-            <img src="./images/snimg.jpg" alt="img">
+            <img src="./images/snimg.jpg" alt="Sankaranarayanan R - About" loading="lazy">
         </div>
         <div class="about-content">
             <h2 class="heading">About <span>Me</span></h2>
-            <h3>Frontend Developer!</h3>
-            <p>I am Sankaranarayanan R,a front-end developer with a passion for creating interactive and user-friendly
-                web applications.I graduated from the Government College of Engineering,Thanjavur in 2021.My expertise
-                lies in HTML,CSS,Bootstrap,JavaScript,JQuery and ReactJS.I enjoy building projects that focus on clean
-                design and seamless user experiences.I'm continuously learning and excited bring innovative ideas to
-                life.</p>
-            <a href="" class="btn">Read more</a>
+            <h3>PHP &amp; CodeIgniter Developer</h3>
+            <p>I am Sankaranarayanan R, a PHP Developer with 1.4 years of professional experience building web applications using PHP, CodeIgniter 4, and MySQL with MVC architecture. I specialize in developing REST APIs, CRUD modules, authentication systems, and payment gateway integrations for e-commerce and CRM platforms.</p>
+            <p>I have successfully delivered production-ready code for client projects including e-commerce CMS platforms and CRM web applications. I'm passionate about building maintainable, scalable web applications that solve real business problems.</p>
+            <div class="about-stats">
+                <div class="stat-item">
+                    <span class="stat-number">1.4+</span>
+                    <span class="stat-label">Years Experience</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number">2</span>
+                    <span class="stat-label">Professional Projects</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number">1</span>
+                    <span class="stat-label">Independent Project</span>
+                </div>
+            </div>
+            <a href="#" class="btn" id="downloadResume2">Download Resume</a>
         </div>
     </section>
 
-    <!-- Skills section -->
-
-    <section class="skills" id="skills">
-        <h2 class="heading">Technical <span>Skills</span></h1>
-            <div class="container">
-
-                <i class="fa-brands fa-html5"></i>
-                <h2>HTML5</h2>
-                <div class="progress-bar">
-                    <div class="html">
-                        <span>86%</span>
-                    </div>
-                </div>
-                <i class="fa-brands fa-css3"></i>
-                <h2>CSS3</h2>
-                <div class="progress-bar">
-                    <div class="css">
-                        <span>75%</span>
-                    </div>
-                </div>
-                <i class="fa-brands fa-bootstrap"></i>
-                <h2>Bootstrap</h2>
-                <div class="progress-bar">
-                    <div class="bootstrap">
-                        <span>70%</span>
-                    </div>
-                </div>
-                <i class="fa-brands fa-js"></i>
-                <h2>JavaScript</h2>
-                <div class="progress-bar">
-                    <div class="javascript">
-                        <span>68%</span>
-                    </div>
-                </div>
-                <i class="fa-brands fa-js"></i>
-                <h2>Jquery</h2>
-                <div class="progress-bar">
-                    <div class="jquery">
-                        <span>55%</span>
-                    </div>
-                </div>
-                <i class="fa-brands fa-react"></i>
-                <h2>ReactJS</h2>
-                <div class="progress-bar">
-                    <div class="reactjs">
-                        <span>70%</span>
-                    </div>
-                </div>
-                <i class="fa-brands fa-python"></i>
-                <h2>Python</h2>
-                <div class="progress-bar">
-                    <div class="python">
-                        <span>80%</span>
-                    </div>
-                </div>
-                <i class="fa-solid fa-database"></i>
-                <h2>MySQL</h2>
-                <div class="progress-bar">
-                    <div class="mysql">
-                        <span>78%</span>
-                    </div>
-                </div>
-                <i class="fa-brands fa-python"></i>
-                <h2>Django</h2>
-                <div class="progress-bar">
-                    <div class="django">
-                        <span>69%</span>
-                    </div>
-                </div>
-                <i class="fa-brands fa-github"></i>
-                <h2>Git&GitHub</h2>
-                <div class="progress-bar">
-                    <div class="github">
-                        <span>90%</span>
-                    </div>
-                </div>
-            </div>
-    </section>
-
-    <section class="project" id="projects">
-        <h2 class="heading">Latest <span>Projects</span></h2>
-        <div class="project-container">
-            <div class="project-box">
-                <img src="./images/form.jpg" alt="">
-                <div class="project-layer">
-                    <h4>Facebook Signup</h4>
-                    <p>HTML5 | CSS3 </p>
-                    <p>Developed a Facebook signup page clone using html and css focusing on replicating the design </p>
-                    <a href="#"><i class="fa-solid fa-link"></i></a>
-                </div>
-            </div>
-            <div class="project-box">
-                <img src="./images/calculator.jpg" alt="">
-                <div class="project-layer">
-                    <h4>Calculator</h4>
-                    <p>HTML5 | CSS3 | JavaScript </p>
-                    <p>Create a functional calculator using HTML,CSS and JavaScript featuring basic arithmatic
-                        operations and a clean user interface.</p>
-                    <a href="#"><i class="fa-solid fa-link"></i></a>
+    <!-- Skills Section -->
+    <section class="skills" id="skills" aria-label="Skills section">
+        <h2 class="heading">Technical <span>Skills</span></h2>
+        <div class="skills-container">
+            <div class="skill-category">
+                <h3><i class="fas fa-server"></i> Backend Development</h3>
+                <div class="skill-items">
+                    <span class="skill-tag">PHP</span>
+                    <span class="skill-tag">CodeIgniter 3</span>
+                    <span class="skill-tag">CodeIgniter 4</span>
+                    <span class="skill-tag">MVC Architecture</span>
+                    <span class="skill-tag">REST API Development</span>
+                    <span class="skill-tag">CRUD Operations</span>
+                    <span class="skill-tag">Authentication</span>
+                    <span class="skill-tag">Session Management</span>
                 </div>
             </div>
 
-            <div class="project-box">
-                <img src="./images/organic.jpg" alt="">
-                <div class="project-layer">
-                    <h4>Organic Food Shop</h4>
-                    <p>HTML5 | CSS3 | Bootstrap </p>
-                    <p>Developed a responsive organic food shop website using HTML,CSS and Bootstrap highlighting clean
-                        design and easy navigation.</p>
-                    <a href="#"><i class="fa-solid fa-link"></i></a>
+            <div class="skill-category">
+                <h3><i class="fas fa-database"></i> Database</h3>
+                <div class="skill-items">
+                    <span class="skill-tag">MySQL</span>
+                    <span class="skill-tag">SQL Optimization</span>
+                    <span class="skill-tag">Relational Data Modeling</span>
                 </div>
             </div>
-            <div class="project-box">
-                <img src="./images/form.jpg" alt="">
-                <div class="project-layer">
-                    <h4>Form Validation</h4>
-                    <p>HTML5 | CSS3 | Jquery </p>
-                    <p>Implemented form validation using HTML,CSS and Jquery to ensure user input accuracy and enhanse
-                        overall user experience</p>
-                    <a href="#"><i class="fa-solid fa-link"></i></a>
+
+            <div class="skill-category">
+                <h3><i class="fas fa-code"></i> Frontend</h3>
+                <div class="skill-items">
+                    <span class="skill-tag">HTML5</span>
+                    <span class="skill-tag">CSS3</span>
+                    <span class="skill-tag">JavaScript</span>
+                    <span class="skill-tag">jQuery</span>
+                    <span class="skill-tag">Bootstrap</span>
+                    <span class="skill-tag">AJAX</span>
                 </div>
             </div>
-            <div class="project-box">
-                <img src="./images/weather.jpg" alt="">
-                <div class="project-layer">
-                    <h4>Weather app</h4>
-                    <p>HTML5 | CSS3 | JavaScript | ReactJS</p>
-                    <p>Developed a weather app using HTML,CSS,JavaScript and ReactJS providing real time weather updates
-                        and forecasts based on user location</p>
-                    <a href="#"><i class="fa-solid fa-link"></i></a>
+
+            <div class="skill-category">
+                <h3><i class="fas fa-plug"></i> APIs &amp; Integrations</h3>
+                <div class="skill-items">
+                    <span class="skill-tag">REST API Integration</span>
+                    <span class="skill-tag">Third-party APIs</span>
+                    <span class="skill-tag">Razorpay</span>
+                    <span class="skill-tag">Mollie</span>
+                    <span class="skill-tag">Payment Gateways</span>
                 </div>
             </div>
-            <div class="project-box">
-                <img src="./images/faq.jpg" alt="">
-                <div class="project-layer">
-                    <h4>Faq</h4>
-                    <p>HTML5 | CSS3 | JavaScript | ReactJS</p>
-                    <p>Created an FAQ page using HTML,CSS,JavaScript and ReactJS featuring expendable answers for an
-                        improved user experienc.</p>
-                    <a href="#"><i class="fa-solid fa-link"></i></a>
-                </div>
-            </div>
-            <div class="project-box">
-                <img src="./images/currency.jpg" alt="">
-                <div class="project-layer">
-                    <h4>Currency Convertor</h4>
-                    <p>HTML5 | CSS3 | JavaScript | ReactJS</p>
-                    <p>Developed a currency Convertor using HTMl,CSS,JavaScript and ReactJS allowing users to convert
-                        between multiple currencies in real-time
-                    </p>
-                    <a href="#"><i class="fa-solid fa-link"></i></a>
-                </div>
-            </div>
-            <div class="project-box">
-                <img src="./images/password.jpg" alt="">
-                <div class="project-layer">
-                    <h4>Password Generator</h4>
-                    <p>HTML5 | CSS3 | JavaScript | ReactJS</p>
-                    <p>Built a password generator using HTML,CSS,JavaScript and ReactJS enabling users to create
-                        secure,random
-                        password based on selected criteria</p>
-                    <a href="#"><i class="fa-solid fa-link"></i></a>
-                </div>
-            </div>
-            <div class="project-box">
-                <img src="./images/qr.jpg" alt="">
-                <div class="project-layer">
-                    <h4>QR code generator</h4>
-                    <p>HTML5 | CSS3 | JavaScript | ReactJS</p>
-                    <p>Created a QR code generator using HTML,CSS,JavaScript and ReactJS allowing users to generate R
-                        codes from
-                        custom input data</p>
-                    <a href="#"><i class="fa-solid fa-link"></i></a>
+
+            <div class="skill-category">
+                <h3><i class="fas fa-tools"></i> Tools &amp; Utilities</h3>
+                <div class="skill-items">
+                    <span class="skill-tag">Git</span>
+                    <span class="skill-tag">GitHub</span>
+                    <span class="skill-tag">Redis Caching</span>
+                    <span class="skill-tag">DataTables</span>
+                    <span class="skill-tag">PDF Generation</span>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- contact section -->
-    <section class="contact" id="contact">
-        <h2 class="heading">Contact <span>Me!</span></h2>
-        <form action="#">
-            <div class="input-box">
-                <input type="text" placeholder="Full Name">
-                <input type="email" placeholder="Email Address">
+    <!-- Professional Experience Section -->
+    <section class="experience" id="experience" aria-label="Experience section">
+        <h2 class="heading">Professional <span>Experience</span></h2>
+        <div class="experience-container">
+            <div class="experience-card">
+                <div class="experience-header">
+                    <div class="experience-icon">
+                        <i class="fas fa-building"></i>
+                    </div>
+                    <div class="experience-meta">
+                        <h3>PHP Developer / CodeIgniter Developer</h3>
+                        <h4>Bugtreat Technologies</h4>
+                        <span class="experience-date">Apr 2025 — Jul 2026</span>
+                    </div>
+                </div>
+                <div class="experience-body">
+                    <div class="experience-project">
+                        <h5><i class="fas fa-shopping-cart"></i> Phonefurb - E-commerce CMS Platform</h5>
+                        <ul>
+                            <li>Developed and maintained customer-facing e-commerce modules including homepage, product listings, product details, cart, and checkout workflows.</li>
+                            <li>Integrated Mollie payment gateway for secure online payment processing and checkout completion.</li>
+                            <li>Built automated PDF invoice generation triggered on successful orders, including customer order-detail views and invoice downloads.</li>
+                            <li>Developed admin dashboard functionality for manual invoice creation and product management.</li>
+                            <li>Maintained supporting content modules including Contact, FAQ, and About Us pages.</li>
+                        </ul>
+                    </div>
+                    <div class="experience-project">
+                        <h5><i class="fas fa-users"></i> Serku CRM - CRM Web Application (RISE CRM)</h5>
+                        <ul>
+                            <li>Implemented lead-management workflows covering lead creation, conversion to estimates, and task/event creation per lead.</li>
+                            <li>Streamlined team-based assignment of leads and tasks across team members.</li>
+                            <li>Added email notification and PDF-generation capabilities for CRM documents.</li>
+                            <li>Integrated Scalware REST API for project synchronization and document management, and implemented Redis caching to improve performance.</li>
+                            <li>Enhanced usability by adding persistent filters to leads and estimates listing pages.</li>
+                            <li>Automated dynamic Excel import/export with configurable formatting across CRM modules.</li>
+                        </ul>
+                    </div>
+                </div>
             </div>
-            <div class="input-box">
-                <input type="number" placeholder="Mobile Number">
-                <input type="text" placeholder="Email Subject">
-            </div>
-            <textarea cols="30" rows="10" placeholder="Your Message"></textarea>
-            <input type="submit" value="Send Message" class="btn">
-        </form>
+        </div>
     </section>
 
-    <!-- footer section -->
+    <!-- Projects Section -->
+    <section class="projects" id="projects" aria-label="Projects section">
+        <h2 class="heading">Independent <span>Project</span></h2>
+        <div class="projects-container">
+            <div class="project-card featured">
+                <div class="project-image">
+                    <img src="./images/android-chrome-512x512.png" alt="BSSSHOP E-commerce Platform" loading="lazy">
+                    <div class="project-badge">Independent Project</div>
+                </div>
+                <div class="project-content">
+                    <h3>BSSSHOP</h3>
+                    <h4>Full-Stack E-commerce Platform</h4>
+                    <div class="project-tech">
+                        <span>PHP</span>
+                        <span>CodeIgniter 4</span>
+                        <span>MySQL</span>
+                        <span>Bootstrap</span>
+                        <span>jQuery</span>
+                        <span>Razorpay</span>
+                    </div>
+                    <p>Built a full-stack e-commerce platform using CodeIgniter 4 MVC, PHP, and MySQL, with separate customer-facing and admin experiences.</p>
+                    <ul class="project-features">
+                        <li><i class="fas fa-check-circle"></i> Product catalog, category browsing, product filtering, and specifications</li>
+                        <li><i class="fas fa-check-circle"></i> Cart, checkout, and order confirmation workflows</li>
+                        <li><i class="fas fa-check-circle"></i> Customer registration, login, and authentication/session management</li>
+                        <li><i class="fas fa-check-circle"></i> Razorpay payment processing with multi-gateway support</li>
+                        <li><i class="fas fa-check-circle"></i> Admin modules for products, categories, orders, customers, and content</li>
+                        <li><i class="fas fa-check-circle"></i> Centralized settings management for payment configuration, language, theme, and timezone</li>
+                    </ul>
+                    <div class="project-links">
+                        <a href="https://bssshop.freedev.app" target="_blank" rel="noopener noreferrer" class="btn">View Live Demo</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact" aria-label="Contact section">
+        <h2 class="heading">Contact <span>Me</span></h2>
+        <div class="contact-container">
+            <div class="contact-info">
+                <div class="contact-item">
+                    <i class="fas fa-envelope"></i>
+                    <div>
+                        <h4>Email</h4>
+                        <a href="mailto:sivaram1712000@gmail.com">sivaram1712000@gmail.com</a>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-phone"></i>
+                    <div>
+                        <h4>Phone</h4>
+                        <a href="tel:+919080021539">+91 90800 21539</a>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <div>
+                        <h4>Location</h4>
+                        <span>Madurai, Tamil Nadu</span>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <i class="fab fa-linkedin-in"></i>
+                    <div>
+                        <h4>LinkedIn</h4>
+                        <a href="https://linkedin.com/in/sankarkutty" target="_blank" rel="noopener noreferrer">linkedin.com/in/sankarkutty</a>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <i class="fab fa-github"></i>
+                    <div>
+                        <h4>GitHub</h4>
+                        <a href="https://github.com/Sankar360" target="_blank" rel="noopener noreferrer">github.com/Sankar360</a>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- NETLIFY FORM - Updated with proper attributes -->
+            <form name="contact" method="POST" data-netlify="true" class="contact-form" id="contactForm">
+                <!-- Required hidden input for Netlify -->
+                <input type="hidden" name="form-name" value="contact">
+                
+                <div class="input-box">
+                    <input type="text" name="name" placeholder="Full Name" required aria-required="true">
+                    <input type="email" name="email" placeholder="Email Address" required aria-required="true">
+                </div>
+                <div class="input-box">
+                    <input type="text" name="mobile" placeholder="Mobile Number">
+                    <input type="text" name="subject" placeholder="Email Subject">
+                </div>
+                <textarea name="message" cols="30" rows="8" placeholder="Your Message" required aria-required="true"></textarea>
+                <button type="submit" class="btn">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
     <footer class="footer">
         <div class="footer-text">
-            <p>copyright &copy;2024 by sankar | All Rights Reserved</p>
+            <p>&copy; 2024 <span>Sankaranarayanan R</span> | PHP Developer | CodeIgniter Developer</p>
         </div>
         <div class="footer-icon">
-            <a href="#"><i class="fa-solid fa-arrow-up"></i></a>
+            <a href="#home" aria-label="Back to top">
+                <i class="fa-solid fa-arrow-up"></i>
+            </a>
         </div>
     </footer>
 
-    <!-- scroll reveal -->
+    <!-- Scripts -->
     <script src="https://unpkg.com/scrollreveal"></script>
-
     <script src="https://code.jquery.com/jquery-3.7.1.min.js"
-        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous">
+    </script>
     <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
     <script src="script.js"></script>
 </body>
