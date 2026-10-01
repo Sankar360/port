@@ -6,6 +6,7 @@ $(document).ready(function() {
         strings: [
             "PHP Developer",
             "CodeIgniter Developer",
+            "Laravel Developer",
             "Backend / Full-Stack PHP Developer"
         ],
         typeSpeed: 100,
