@@ -683,60 +683,55 @@
 
 
         <!-- NETLIFY FORM -->
-        <form name="contact"
-            method="POST"
-            data-netlify="true"
-            class="contact-form"
-            id="contactForm">
+        <form
+    name="contact"
+    method="POST"
+    data-netlify="true"
+    class="contact-form"
+    id="contactForm">
 
-            <input type="hidden"
-                name="form-name"
-                value="contact">
+    <input type="hidden"
+        name="form-name"
+        value="contact">
 
+    <div class="input-box">
 
-            <div class="input-box">
+        <input type="text"
+            name="name"
+            placeholder="Full Name"
+            required>
 
-                <input type="text"
-                    name="name"
-                    placeholder="Full Name"
-                    required
-                    aria-required="true">
+        <input type="email"
+            name="email"
+            placeholder="Email Address"
+            required>
 
-                <input type="email"
-                    name="email"
-                    placeholder="Email Address"
-                    required
-                    aria-required="true">
+    </div>
 
-            </div>
+    <div class="input-box">
 
+        <input type="text"
+            name="mobile"
+            placeholder="Mobile Number">
 
-            <div class="input-box">
+        <input type="text"
+            name="subject"
+            placeholder="Email Subject">
 
-                <input type="text"
-                    name="mobile"
-                    placeholder="Mobile Number">
+    </div>
 
-                <input type="text"
-                    name="subject"
-                    placeholder="Email Subject">
+    <textarea
+        name="message"
+        cols="30"
+        rows="8"
+        placeholder="Your Message"
+        required></textarea>
 
-            </div>
+    <button type="submit" class="btn">
+        Send Message
+    </button>
 
-
-            <textarea name="message"
-                cols="30"
-                rows="8"
-                placeholder="Your Message"
-                required
-                aria-required="true"></textarea>
-
-
-            <button type="submit" class="btn">
-                Send Message
-            </button>
-
-        </form>
+</form>
 
     </div>
 
