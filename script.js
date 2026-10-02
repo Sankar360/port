@@ -119,7 +119,7 @@ function downloadResume(e) {
 
     const link = document.createElement('a');
 
-    link.href = './images/sankarresume.pdf';
+    link.href = './images/sankarresume_php_laravel_codeigniter.pdf';
     link.download = 'Sankaranarayanan_R_Resume.pdf';
 
     document.body.appendChild(link);
